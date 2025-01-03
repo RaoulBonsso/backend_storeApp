@@ -5,6 +5,7 @@ const authRouter = require('./routes/auth');
 const bannerRouter = require('./routes/banner');
 const categoryRouter = require('./routes/category');
 const subCategoryRouter = require('./routes/sub_category');
+const productRouter = require('./routes/product');
 
 // instance of express
 const app = express();
@@ -18,6 +19,7 @@ app.use(authRouter);
 app.use(bannerRouter);
 app.use(categoryRouter);
 app.use(subCategoryRouter);
+app.use(productRouter);
 
 
 // mongoose middleware

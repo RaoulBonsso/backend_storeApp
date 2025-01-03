@@ -38,7 +38,7 @@ const productSchema = mongoose.Schema({
         default: false
     },
 
-    recommande : {
+    recommend : {
         type: Boolean,
         default: false
     }
