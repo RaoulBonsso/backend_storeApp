@@ -6,6 +6,7 @@ const bannerRouter = require('./routes/banner');
 const categoryRouter = require('./routes/category');
 const subCategoryRouter = require('./routes/sub_category');
 const productRouter = require('./routes/product');
+const productReviewRouter = require('./routes/product_review');
 
 // instance of express
 const app = express();
@@ -20,6 +21,7 @@ app.use(bannerRouter);
 app.use(categoryRouter);
 app.use(subCategoryRouter);
 app.use(productRouter);
+app.use(productReviewRouter);
 
 
 // mongoose middleware
